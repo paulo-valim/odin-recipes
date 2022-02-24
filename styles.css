@@ -1,10 +1,25 @@
+html {
+  display: table;
+  margin: auto;
+  height: 100%;
+}
+
 body {
     background-color: #05192D;
+    height: 100%;
+}
+
+.header { 
+  text-align: center;
 }
 
 .logo {
-  margin-bottom: 100px;
-  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  border-bottom: 1px solid yellow;
+}
+
+.divpic {
+  text-align: center;
 }
 
 a {
@@ -13,27 +28,39 @@ a {
 
 p { 
   color:white;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.desc {
+  text-align: center;
 }
 
 h1 {
     color: yellow;
     text-align: center;
-    text-decoration: none;
+  }
+  
+h2, ul, ol, li {  
+    color: white;
+    text-align:start 100px;
+    list-style-position: inside;
+    line-height: 25px;
   }
 
-* {
-    text-align: center;
-  }
-  
-.subs {
-    color: black;
-    font-size: 12px;
-    vertical-align: right;
-  }
-  
+h2 {
+  text-align: center;
+  color: palevioletred;
+  margin-top: 30px;
+}
+
 .pics {
     border: 3px solid rgb(255, 255, 255);
     width: 300px;
+  }
+
+  .subs {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
   }
   
